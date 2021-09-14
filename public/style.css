@@ -1,25 +1,35 @@
-/* a minimalist set of CSS resets */
+/****** Main Styling ******/
 
-/* default to border-box */
-html {
-  box-sizing: border-box;
-  font-size: 16px;
-}
-
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-
-/* adjust typography defaults */
 body {
-  margin: 1rem;
-  font-family: sans-serif;
-  line-height: 1.5;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #222;
+	background-color: #ECF0F1;
+	text-align: center;
 }
 
-/* images and videos max out at full width */
-img,
-video {
-  height: auto;
-  max-width: 100%;
+.container {
+	padding: 0;
+	margin-top: 40px;
+}
+
+.footer {
+	margin-top: 60px;
+}
+
+ol {
+	list-style-position: inside;
+}
+ul {
+	list-style-type: none;
+}
+
+a {
+	color: #2574A9;
+}
+/****** Logo Div Styling ******/
+
+img {
+	margin: 20px auto 0 auto;
+	display: block;
 }

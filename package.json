@@ -1,28 +1,24 @@
 {
-  "name": "glitch-mvp-node",
-  "version": "0.0.1",
-  "description": "A simple Node app built on fastify, instantly up and running.",
+  "name": "fcc-learn-npm-package-json",
+  "author": "Adriaan Willem",
+  "keywords": [
+    "freecodecamp",
+    "fcc",
+    "backend",
+    "api"
+  ],
+  "license" : "MIT",
+  "version": "1.0.0",
+  "description": "FCC backend and API",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
-    "fastify": "^3.14.1",
-    "fastify-formbody": "^5.0.0",
-    "fastify-static": "^4.0.0",
-    "handlebars": "^4.7.7",
-    "point-of-view": "^4.14.0"
-  },
-  "engines": {
-    "node": "12.x"
+    "express": "^4.14.0"
   },
   "repository": {
-    "url": "https://glitch.com/edit/#!/glitch-mvp-node"
-  },
-  "license": "MIT",
-  "keywords": [
-    "node",
-    "glitch",
-    "express"
-  ]
+    "type": "git",
+    "url": "https://idontknow/todo.git"
+  }
 }
